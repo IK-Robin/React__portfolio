@@ -1,7 +1,7 @@
 {
-  "name": "fontend__portfolio.github.io",
+  "name": "fontend__portfolio",
   "version": "0.1.0",
-  "homepage": "https://ik-robin.github.io",
+  "homepage": "https://IK-Robin.github.io/React__portfolio",
   "private": true,
   "dependencies": {
     "@sanity/client": "^3.2.0",
@@ -18,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,6 +54,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.5.1"
   }
 }
