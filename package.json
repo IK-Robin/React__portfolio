@@ -1,7 +1,7 @@
 {
   "name": "fontend__portfolio",
   "version": "0.1.0",
-  "homepage": "https://IK-Robin.github.io/React__portfolio",
+  "homepage": "https://IK-Robin.github.io/reactportfolio",
   "private": true,
   "dependencies": {
     "@sanity/client": "^3.2.0",
